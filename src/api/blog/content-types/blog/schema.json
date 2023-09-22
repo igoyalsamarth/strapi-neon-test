@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogs",
+  "info": {
+    "singularName": "blog",
+    "pluralName": "blogs",
+    "displayName": "Blog"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "blogName": {
+      "type": "string"
+    },
+    "createOn": {
+      "type": "datetime"
+    },
+    "writtenBy": {
+      "type": "string"
+    },
+    "topicTag": {
+      "type": "string"
+    },
+    "blogBody": {
+      "type": "richtext"
+    }
+  }
+}
