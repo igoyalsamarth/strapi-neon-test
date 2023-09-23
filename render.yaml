@@ -5,11 +5,6 @@ services:
     plan: free
     buildCommand: npm run build
     startCommand: npm run start
-    healthCheckPath: /_health
-    disk:
-      name: strapi-uploads
-      mountPath: /opt/render/project/src/public/uploads
-      sizeGB: 1
     envVars:
       - key: NODE_VERSION
         value: 16.0.0
