@@ -35,6 +35,9 @@
     },
     "tagThree": {
       "type": "string"
+    },
+    "thumbImg": {
+      "type": "string"
     }
   }
 }

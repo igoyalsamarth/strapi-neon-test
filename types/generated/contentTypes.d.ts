@@ -381,6 +381,7 @@ export interface ApiBlogBlog extends Schema.CollectionType {
     tagOne: Attribute.String;
     tagTwo: Attribute.String;
     tagThree: Attribute.String;
+    thumbImg: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
